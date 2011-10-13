@@ -19,5 +19,5 @@ MY_PORT="6379"
 
 relation-set hostname="${MY_HOSTNAME}" port="${MY_PORT}"
 
-echo $ENSEMBLE_REMOTE_UNIT joined
+echo $JUJU_REMOTE_UNIT joined
 

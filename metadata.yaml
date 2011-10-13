@@ -1,6 +1,4 @@
-ensemble: formula
 name: redis-master
-revision: 1
 summary: Persistent key-value database with network interface
 description: |
   Redis is a key-value database in a similar vein to memcache but the
@@ -8,7 +6,7 @@ description: |
   for atomically manipulating and querying data structures such as lists
   and sets.  The dataset is stored entirely in memory and periodically
   flushed to disk.
-  This formula provides the master/stand-alone formula
+  This charm provides the master/stand-alone service
 provides:
   redis-admin:
     interface: redis

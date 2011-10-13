@@ -18,5 +18,5 @@ MY_HOSTNAME=`hostname -f`
 
 relation-set hostname=${MY_HOSTNAME}
 
-echo $ENSEMBLE_REMOTE_UNIT joined
+echo $JUJU_REMOTE_UNIT joined
 
