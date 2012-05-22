@@ -1,4 +1,5 @@
 name: redis-master
+maintainer: Juan Negron <juan.negron@canonical.com>
 summary: Persistent key-value database with network interface
 description: |
   Redis is a key-value database in a similar vein to memcache but the
