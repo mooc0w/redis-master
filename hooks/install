@@ -16,7 +16,7 @@ apt-get install -y redis-server
 # Set some variables
 ############################################################################################################
 
-MY_HOSTNAME=`hostname -f`
+MY_HOSTNAME=`unit-get public-address`
 
 ############################################################################################################
 # Modify the redis-server configuration file
