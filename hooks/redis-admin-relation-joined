@@ -10,7 +10,7 @@ set -ux
 # Set global variables
 ############################################################################################################
 
-MY_HOSTNAME=`hostname -f`
+MY_HOSTNAME=`unit-get public-address`
 
 ############################################################################################################
 # Set the hostname in the relation so it can be picked up by the _other_ side
