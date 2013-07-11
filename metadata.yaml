@@ -8,6 +8,8 @@ description: |
   and sets.  The dataset is stored entirely in memory and periodically
   flushed to disk.
   This charm provides the master/stand-alone service
+categories:
+    - databases
 provides:
   redis-admin:
     interface: redis
