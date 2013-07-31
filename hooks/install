@@ -28,4 +28,4 @@ sed -i.bak -e "s/bind 127.0.0.1/#bind 127.0.0.1/" /etc/redis/redis.conf
 # Open the necessary ports
 ############################################################################################################
 
-[ -x /usr/bin/open-port ] && open-port 6379/TCP
+open-port 6379/TCP
